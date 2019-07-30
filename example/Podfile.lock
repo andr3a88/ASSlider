@@ -1,0 +1,16 @@
+PODS:
+  - ASSlider (1.0.0)
+
+DEPENDENCIES:
+  - ASSlider (from `../`)
+
+EXTERNAL SOURCES:
+  ASSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASSlider: ff76bae0971a579b07fec28661567678ed4c9048
+
+PODFILE CHECKSUM: 26eedfb7f3a8c4375e60cb8af6c57caf2afb50d3
+
+COCOAPODS: 1.7.4

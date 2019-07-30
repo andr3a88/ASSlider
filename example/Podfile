@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'ASSlider_Example' do
+  pod 'ASSlider', :path => '../'
+
+  target 'ASSlider_Tests' do
+    inherit! :search_paths
+  end
+end

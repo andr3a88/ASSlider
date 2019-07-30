@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14854.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cMt-9E-sNf">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14806.4"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ZCV-Kl-Izj">
+            <objects>
+                <viewController id="cMt-9E-sNf" customClass="ViewController" customModule="ASSlider_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KqI-lR-Sj1"/>
+                        <viewControllerLayoutGuide type="bottom" id="XZT-zk-9Zz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kbi-be-8Z6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-10" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="XY5-Gr-BF7" customClass="ASSlider" customModule="ASSlider">
+                                <rect key="frame" x="28" y="318.5" width="319" height="31"/>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XY5-Gr-BF7" firstAttribute="leading" secondItem="Kbi-be-8Z6" secondAttribute="leading" constant="30" id="AHo-0h-enD"/>
+                            <constraint firstAttribute="trailing" secondItem="XY5-Gr-BF7" secondAttribute="trailing" constant="30" id="bO0-sX-bUb"/>
+                            <constraint firstItem="XY5-Gr-BF7" firstAttribute="centerY" secondItem="Kbi-be-8Z6" secondAttribute="centerY" id="qrC-gd-O0x"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="XY5-Gr-BF7" id="mmI-Da-u58"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r4l-Kx-irY" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="15" y="32"/>
+        </scene>
+    </scenes>
+</document>

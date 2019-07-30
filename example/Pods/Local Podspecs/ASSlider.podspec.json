@@ -1,0 +1,29 @@
+{
+  "name": "ASSlider",
+  "version": "1.0.0",
+  "summary": "A short description of ASSlider.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/andr3a88/ASSlider",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "andr3a88": "runner_corsa@msn.com"
+  },
+  "source": {
+    "git": "https://github.com/andr3a88/ASSlider.git",
+    "tag": "1.0.0"
+  },
+  "social_media_url": "https://twitter.com/andrea_steva",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ASSlider/Classes/**/*",
+  "resource_bundles": {
+    "ASSlider": [
+      "ASSlider/Assets/**/*.png",
+      "ASSlider/Assets/**/*.xcassets"
+    ]
+  }
+}
