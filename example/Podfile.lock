@@ -1,5 +1,5 @@
 PODS:
-  - ASSlider (1.0.0)
+  - ASSlider (0.0.1)
 
 DEPENDENCIES:
   - ASSlider (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ASSlider: ff76bae0971a579b07fec28661567678ed4c9048
+  ASSlider: b5f1edfcb2ec6b68ab898f519990f39ee94e63db
 
 PODFILE CHECKSUM: 26eedfb7f3a8c4375e60cb8af6c57caf2afb50d3
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.8.4
